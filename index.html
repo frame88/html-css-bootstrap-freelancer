@@ -11,27 +11,29 @@
     <title>bootstrap-freelancer</title>
 </head>
 <body>
-    <header class="header text-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <h1>
-                        START BOOTSTRAP
-                    </h1>
-                </div>
-                <div class="hamburger col-6 text-end d-sm-none">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <div class="col-6 text-end d-none d-sm-block">
-                    <ul class="nav-menu list-inline mb-0 pt-3">
-                        <li class="list-inline-item">Portfolio</li>
-                        <li class="list-inline-item">About</li>
-                        <li class="list-inline-item">Contact</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg px-5">
+        <a class="navbar-brand h1  text-uppercase text-light" href="#">start bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contatti</a>
+                </li>
+            </ul>
         </div>
-    </header>
+    </nav>
+    </div>
     <!-- /header -->
     
     <!-- jumbotron -->
@@ -44,7 +46,7 @@
                     </div>
                     <h2 class="pt-4 text-uppercase">start bootstrap</h2>
                     <div class="star">
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star pb-3"></i>
                     </div>
                     <h5 class="text-uppercase">graphic artist - web designer - illustrator</h3>
                 </div>
@@ -61,6 +63,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 class="text-uppercase">Portfolio</h2>
+                        <i class="fas fa-star pb-3"></i>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="image d-flex align-items-center justify-content-center">
@@ -102,7 +105,10 @@
             <div class="container pt-6 pb-6">
                 <div class="row justify-content-center">
                     <div class="col-8">
-                        <h1 class="text-uppercase text-center text-light">about</h1>
+                        <div class="col text-center">
+                            <h1 class="text-uppercase  text-light">about</h1>
+                            <i class="fas fa-star text-light pb-3"></i>
+                        </div>
                         <div class="row">
                             <div class="col-12 col-sm-6 mb-3 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Reiciendis
@@ -131,6 +137,7 @@
             <div class="container pt-6 pb-6">
                 <div class="row justify-content-center">
                     <h1 class="text-uppercase text-center">contact me</h1>
+                    <i class="fas fa-star text-center pb-3"></i>
                     <div class="col-8">
                         <input class="form-control form-control-lg" type="text" placeholder="Name">
                         <input class="form-control form-control-lg" type="text" placeholder="Email Address">
