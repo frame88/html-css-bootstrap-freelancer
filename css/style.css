@@ -25,9 +25,10 @@
   height: 100px; */
 }
 
-.jumbotron {
+.jumbotron, .send {
   background-color: rgb(var(--green-color));
 }
+
 .jumbotron .avatar {
   display: inline-block;
   width: 300px;
@@ -52,4 +53,8 @@
 }
 .footer .footer-bottom{
   background-color: rgba(var(--dark-green-color));
+}
+
+.start {
+  color: rgb(var(--green-color));
 }
